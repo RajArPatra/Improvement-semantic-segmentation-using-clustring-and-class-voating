@@ -9,7 +9,7 @@ from sklearn.cluster import estimate_bandwidth
 from sklearn.metrics.pairwise import pairwise_distances
 
 
-class Quickshift():
+class QuickShift():
     
     def __init__(self, t = None, bw = None, window_type = 'flat', metric = 'euclidean'):
         
